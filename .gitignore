@@ -1,0 +1,10 @@
+*.a
+*~*
+*#*
+*.out
+*.txt
+*.log
+*.vscode
+*.o
+info_file
+my_hunter
