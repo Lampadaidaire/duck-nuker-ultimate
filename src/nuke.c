@@ -30,7 +30,7 @@ void do_explosion(display_struct_t *params)
 
 void handle_nuke(display_struct_t *params)
 {
-    if (params->player.score >= 0000) {
+    if (params->player.score >= 150000) {
         params->nuke.nuke_enabled = 0;
         get_new_bestscore(params);
         if (sfSound_getStatus(params->nuke.nuke_sound) != sfPlaying)
